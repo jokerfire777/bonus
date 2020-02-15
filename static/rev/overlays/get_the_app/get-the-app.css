@@ -1,0 +1,49 @@
+.get-app-overlay {
+    width: 500px;
+}
+.get-app-overlay .f-gry-43 {
+    color: #434343;
+}
+.get-app-overlay .merchant-logo {
+    margin-top: 68px;
+}
+.get-app-overlay .merchant-logo img {
+    max-height: 39px;
+}
+.get-app-overlay .merchant-cashback {
+    margin-top: 37px;
+}
+.get-app-overlay .instructions {
+    color: #252525;
+}
+.get-app-overlay input.get-the-app-mobile-number {
+    width: 258px;
+    height: 46px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 16px;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+}
+.get-app-overlay .error-msg {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.get-app-overlay .send-txt-btn {
+    width: 300px;
+}
+.get-app-overlay .tooltip {
+    white-space: pre-wrap;
+}
+.get-app-overlay .tooltip.tooltip-right {
+    transform: translate(0, -50%);
+}
+.get-app-overlay .tooltip.tooltip-bottom {
+    transform: translate(-50%, 0);
+}
+.op6 {
+    opacity: 0.6 !important;
+}
+.w-500 {
+    width: 500px;
+}

@@ -1,0 +1,250 @@
+.sem-ui{background:url(../../../landing_pages/sem/2014/layout.1.0.0/global_files/img/semsprite.1.0.0.png) no-repeat 0 0}
+.sl-sem-su-modal .ast {vertical-align: 1px;}
+.sl-sem-su-modal input.text, .sl-sem-su-modal .eb-captcha {
+    border: 1px solid #3c3c3c !important;
+	color: #000;
+    display: block !important;
+	height: 23px !important;
+    font-style:normal;
+    padding: 3px;
+    width: 200px;
+}
+
+.sl-sem-su-modal .eb-captcha-img{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.sl-sem-su-modal .eb-captcha {
+    float:left;
+    display:block;
+    clear:both;
+    margin-bottom: 20px;
+    padding: 7px;
+    width: 202px;
+}
+.sl-sem-su-modal .eb-captcha-img-reload {
+    margin-bottom: 25px;
+    margin-left: 13px;
+    text-align: center;
+    cursor:pointer;
+}
+.sl-sem-su-modal .join-button {
+    -webkit-appearance: none;
+    padding: 10px;
+}
+.w-415 {width: 415px;}
+.sl-sem-su-modal .eb-legal-popup:before {
+    content: ""; position: absolute; top: 0;
+    left: 0; height: 20px; width: 100%; background: #23ae4a;
+}
+.sl-sem-su-modal .eb-legal-popup .eb-modal-close {
+    top: -7px;
+    right: -7px;
+    color: white;
+    bottom: auto;
+    display: block;
+}
+.sl-sem-su-modal .eb-legal-popup > div {height:250px; overflow: auto;}
+.sl-sem-su-modal .eb-legal-popup .popuphide {display: none;}
+.sl-sem-su-modal .error {
+    position: absolute; padding: 10px; color: #333;
+    height: auto; border: 1px solid #ccc; text-align: left;
+    left: -190px !important; top: 0; z-index:90 !important;
+    width: 160px !important; background-color: #fff;
+}
+.sl-sem-su-modal .eb-captcha-widget .error { top: 55px; }
+.sl-sem-su-modal .error:after, .sl-sem-su-modal .error:before {
+    left: 100%; top: 10px; border: solid transparent;
+    content: ""; height :0; width: 0; position:absolute;
+}
+.sl-sem-su-modal .error:after {
+    border-left-color: #fff;
+    border-width: 6px;
+}
+.sl-sem-su-modal .error:before {
+    border-left-color: #ccc;
+    border-width:8px;
+    margin-top:-2px;
+}
+
+.sl-sem-su-modal .eb-modal{
+    top:100px;
+    opacity:0;
+}
+#eb-modal-bg.brder-ce{
+    border:1px solid #cecece;
+    width:calc(100% - 2px);
+    height:calc(100% - 2px);
+}
+.w-613 { width:613px; }
+.w-630 { width:630px; }
+.w-300{ width:300px; }
+.sl-su-modal .eb-auth-form li input.text{
+    border:1px solid #ccc;
+    display:block !important;
+    font-size:16px; font-style:normal;
+    padding:13px 20px 13px 13px;
+    width:266px;
+}
+.eb-auth-form .lock {
+    background-position:-5px -5px;
+    height:12px;
+    margin:0 5px 1px 0;
+    vertical-align:text-bottom;
+    width:10px;
+}
+#secure span {
+    display: inline-block;
+    line-height: 14px;
+}
+.eb-legal-popup h1, #conditions{
+    margin-bottom:10px;
+}
+.eb-legal-popup .back{
+    margin-top:5px;
+    margin-bottom:10px;
+}
+
+.sl-sem-su-modal .eb-legal-popup {
+    top: -80px !important;
+    right: 180px;
+    left: auto !important;
+    font-size:11px;opacity:1;
+}
+.eb-legal-popup  p.addrname{
+    margin-top: 10px;
+}
+.border-grn-t-3{
+    border-top:3px solid #23ae4a;
+}
+.pad-60-lr{
+    padding-left:60px;
+    padding-right:60px;
+}
+.sl-sem-su-modal .bonus-amt:before,.bonus-amt:after{
+    content:"";
+    position:absolute;
+    border-bottom:1px solid #23ae4a;
+    top:23px;
+    width:68px;
+}
+.sl-sem-su-modal .bonus-amt:before{
+    right:100%;
+    margin-right:50px;
+}
+.sl-sem-su-modal .bonus-amt:after{
+    left:100%;
+    margin-left:50px;
+}
+.sl-sem-su-modal .button-xlg.social{
+    font-size:18px;
+    height:46px;
+    line-height:46px;
+    padding:0;
+    width:300px;
+}
+.sl-sem-su-modal .button-xlg.social span{
+    height:46px;
+    line-height:46px;
+}
+.sl-sem-su-modal .login-option:before,.login-option:after{
+    content:"";
+    position: absolute;
+    border-bottom:1px solid #ccc;
+    top:8px;
+    width:64px;
+}
+.sl-sem-su-modal .login-option:before{
+    right:100%;
+    margin-right:12px;
+}
+.sl-sem-su-modal .login-option:after{
+    left:100%;
+    margin-left:12px;
+}
+
+.sl-sem-su-modal .eb-modal-close {
+    bottom: 10px;
+    top: auto;
+}
+.store-head {
+    border-bottom: 2px dotted #333;
+	height: 40px;
+	padding: 0 0 10px;
+}
+.store-logo{
+    width: 241px;
+    height: 201px;
+}
+.store-logo img{
+    margin-top: 102px;
+    margin-left: 73px;
+}
+.auth-err {
+    padding: 5px 20px 0 20px;
+}
+
+#shopGreen {
+    background: #f30 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    height: 30px;
+    margin: 0 auto;
+    padding: 0 25px 2px 10px;
+    width: 150px;
+}
+
+.rarr{
+    border: 7px solid transparent;
+    border-left: 11px solid #fff;
+    border-right: 0;width:0;
+    height: 0;
+    position: absolute;
+    right: 9px;
+    top: 8px;
+    cursor: pointer;
+}
+
+.merchant-lglogo{
+    float: left;
+    height: 200px;
+    margin: 0;
+    width: 222px;
+    margin: 0 0 0 50px;
+}
+.lock-item{
+    background: rgba(0, 0, 0, 0) url("../../../images/stores/landing_overlay/coupons.png") no-repeat scroll 0 0;
+    background-position: -48px -68px;
+    display: inline-block;
+    height: 13px;
+    margin: 0 8px 2px 0;
+    vertical-align: bottom;
+    width: 11px;
+}
+.imgtext {
+    color: #888;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.imgwrap {
+    background: #fff none repeat scroll 0 0;
+    margin: 64px 0 0 27px;
+    position: absolute;
+    width: 164px;
+}
+
+.sl-sem-su-modal .join-sprite-img {
+    background: rgba(0, 0, 0, 0) url("../../../../https@static.ebates.com/images/signup/join_overlay/join-final-piggy-sprite.1.0.0.gif") no-repeat scroll 0 0;
+}
+.sl-sem-su-modal .join-sprite-logo {
+    background-position: -6px -114px;
+    height: 44px;
+    width: 112px;
+}
+

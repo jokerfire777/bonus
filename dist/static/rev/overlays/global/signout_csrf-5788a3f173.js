@@ -1,0 +1,2 @@
+!function(){$("a.csrf-signout").on("click",function(e){var t,a,o="default.htm",s={_csrf:ebates.csrf};!ebates.page.type||"hotels"!=ebates.page.type&&"account hotels"!=ebates.page.type?ebates.page.type&&"help"==ebates.page.type&&(s.help=!0,o+=ebates.page.type):(s.hotels=!0,o+="hotels"),a={url:"logout.do",type:"post",data:s},t=$.ajax(a),t.done(function(e){location.href=o}).fail(function(){""!=ebates.csrf&&$.get("ajax/getCsrfParam.htm").done(function(e){s._csrf=e,t=$.ajax(a)})}),e.preventDefault()})}();
+//# sourceMappingURL=signout_csrf-5788a3f173.js.map

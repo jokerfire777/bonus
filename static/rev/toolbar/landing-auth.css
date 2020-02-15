@@ -1,0 +1,51 @@
+.w-415 { width:415px; }
+.w-155 { width:155px; }
+.eb-captcha-widget { overflow: auto; padding-top: 1px;}
+.landing-su-form .eb-captcha-img-reload { margin-bottom: 14px; }
+.landing-su-form .join-button {-webkit-appearance: none;}
+
+.landing-su-form .eb-legal-popup {top: 0 !important; right: 255px; left: auto !important; font-size:11px;}
+.landing-su-form .eb-legal-popup:before {
+    content: ""; position: absolute; top: 0;
+    left: 0; height: 20px; width: 100%; background: #23ae4a;
+}
+.landing-su-form .eb-legal-popup:after { content: ""; position: absolute; bottom: -40px; left: 0; height: 40px; width: 100%; }
+.landing-su-form .eb-legal-popup .eb-modal-close {top: -7px; right: -7px; color: white;}
+.landing-su-form .eb-legal-popup > div {height:250px; overflow: auto;}
+.landing-su-form .eb-legal-popup h1 {margin-bottom: 5px;}
+.landing-su-form .eb-legal-popup h4 {color: #333; padding: 15px 0px 5px; font-weight: bold;}
+.landing-su-form .eb-legal-popup .addrname {font-style: italic; margin-top: 10px;}
+.landing-su-form .eb-legal-popup .popuphide {display: none;}
+.landing-su-form .eb-legal-popup p{margin: 0 0 5px;}
+.eb-auth-form .error {
+    position: absolute; padding: 10px; color: #333;
+    height: auto; border: 1px solid #ccc; text-align: left;
+    left: -190px !important; top: 0; z-index:90 !important;
+    width: 160px !important; background-color: #fff;
+}
+.eb-auth-form .susi-refer-email .error { top: 20px; }
+.eb-auth-form .susi-captcha-cont-wrapper .error { left: -172px !important; }
+.eb-auth-form .error:after, .eb-auth-form .error:before {
+    left: 100%; top: 10px; border: solid transparent;
+    content: ""; height :0; width: 0; position:absolute;
+}
+.eb-auth-form .error:after { border-left-color: #fff; border-width: 6px; }
+.eb-auth-form .error:before { border-left-color: #ccc; border-width:8px; margin-top:-2px; }
+/* Captcha validation message is on the right */
+.eb-auth-form .susi-captcha-cont-wrapper .eb-captcha-widget .error, .landing-fp-form .eb-captcha-widget .error { left: auto !important; right: -190px; top: 0; }
+.eb-captcha-widget .error:after, .eb-captcha-widget .error:before {
+    right: 100%; left: auto !important; border-left-color: transparent !important;
+}
+.eb-captcha-widget .error:after { border-right-color: #fff; }
+.eb-captcha-widget .error:before { border-right-color: #ccc; }
+.eb-auth-form .susi-password-field:after, .eb-auth-form .susi-email-field:after {
+    display: inline; font-family: fontawesome-webfont; content: "\f023";
+    position: absolute; top: 17px; right: 20px;
+    color:#CCC; font-size:17px;
+}
+.eb-auth-form .susi-email-field:after {content:"\f0e0";top:16px;right:17px;}
+.eb-captcha-img {float: left;}
+.fa-refresh::before { content: "\f021"; }
+.susi-captcha-cont { max-height: 74px; }
+.susi-captcha-cont > div { display: inline-block; }
+.susi-captcha-cont > div.eb-captcha-widget { display: block; }
